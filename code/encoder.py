@@ -24,7 +24,7 @@ transform = transforms.Compose([
 ])
 
 # 2.Load MalwarePix Dataset
-path = './data/img/malwarePix_small'
+path = '/content/drive/MyDrive/FastAI/malwarepix-small'
 train_dataset = datasets.ImageFolder(root=path, transform=transform)
 train_loader = DataLoader(train_dataset, batch_size = 64, shuffle = True)
 
