@@ -24,7 +24,7 @@ transform = transforms.Compose([
 ])
 
 # 2.Load MalwarePix Dataset
-path = 'C:/Users/talha/OneDrive/Desktop/Capstone_Final_project/Capstone_final_Project/data/img/malwarepix-small''
+path = 'C:/Users/talha/OneDrive/Desktop/Capstone_Final_project/Capstone_final_Project/data/img/malwarepix-small'
 train_dataset = datasets.ImageFolder(root=path, transform=transform)
 train_loader = DataLoader(train_dataset, batch_size = 64, shuffle = True)
 
